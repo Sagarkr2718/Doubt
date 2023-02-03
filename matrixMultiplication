@@ -1,6 +1,6 @@
 import java.util.*;
 class Main {
-	public static void matMulti(int mat1[][],int mat2[], int row1 , int row2 , int col1 , int col2){
+	public static void matMulti(int mat1[][],int mat2[][], int row1 , int row2 , int col1 , int col2){
 		if(row2 ==col1){
 			int matMulti[][] = new int[row1][col2];
 			for(int i = 0; i<matMulti.length ; i++){
